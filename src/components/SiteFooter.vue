@@ -1,0 +1,1 @@
+<template><footer><a class="brand" href="#top"><span>月见里</span><small>TSUKIMI</small></a><p>上海市静安区愚园路 188 号</p><p>© 2026 TSUKIMI RESTAURANT</p><div><a href="#top">Instagram</a><a href="#top">小红书</a></div></footer></template>

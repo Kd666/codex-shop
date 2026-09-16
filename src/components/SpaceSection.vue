@@ -1,0 +1,1 @@
+<template><section id="space" class="space"><div class="space-photo"></div><div class="space-copy"><p class="section-kicker">03 / OUR SPACE</p><h2>让时间<br />慢下来。</h2><p>隐于城市一隅的暖光空间，适合庆祝、交谈，也适合只为好好吃一顿饭。</p><a href="#booking" class="text-link">探索餐厅空间 <span>→</span></a></div></section></template>

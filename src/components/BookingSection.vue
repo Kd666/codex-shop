@@ -1,0 +1,1 @@
+<template><section id="booking" class="booking section"><p class="section-kicker">RESERVATION</p><h2>为美好相聚，<br /><em>留一张桌。</em></h2><a class="button light" href="tel:021-88886666">立即预订 <span>→</span></a><p class="booking-note">预订专线 021 8888 6666　·　每日 11:30—22:30</p></section></template>

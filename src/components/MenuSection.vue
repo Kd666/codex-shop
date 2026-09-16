@@ -1,0 +1,4 @@
+<script setup>
+const dishes = [{ number: '01', name: '炭烤海鲈鱼', detail: '茴香 · 柚子 · 春菊', imageClass: 'dish-one', large: true }, { number: '02', name: '松茸清汤', detail: '鸡油菌 · 手工豆腐', imageClass: 'dish-two' }, { number: '03', name: '栗子蒙布朗', detail: '焙茶 · 焦糖 · 乳酸菌冰淇淋', imageClass: 'dish-three' }]
+</script>
+<template><section id="menu" class="menu-section section"><div class="section-heading"><div><p class="section-kicker">02 / THIS SEASON</p><h2>此刻，<em>正好。</em></h2></div><p>秋日尝鲜菜单<br />每道料理，都有一段与土地有关的故事。</p></div><div class="dishes"><article v-for="dish in dishes" :key="dish.number" class="dish" :class="{ 'dish-large': dish.large }"><div class="dish-photo" :class="dish.imageClass"></div><div class="dish-info"><span>{{ dish.number }}</span><h3>{{ dish.name }}</h3><p>{{ dish.detail }}</p></div></article></div><a class="menu-all" href="#booking">查看完整菜单 <span>↗</span></a></section></template>
